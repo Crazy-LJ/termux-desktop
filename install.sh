@@ -73,6 +73,12 @@ chmod +x $usr/bin/vncstop
 cp $data/vncstart $usr/bin
 chmod +x $usr/bin/vncstart
 
+mkdir $home/Picture
+mkdir $home/Documents
+mkdir $home/Music
+mkdir $home/Downloads
+
+
 vncserver -kill :1
 
 echo -e " $R PLEASE RESTART TERMUX "
